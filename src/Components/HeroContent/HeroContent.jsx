@@ -1,5 +1,5 @@
 import React from "react";
-import User from "./img/usuario.png";
+import User from "./img/usuario3.png";
 
 const HeroContent = () => {
   return (
@@ -11,7 +11,7 @@ const HeroContent = () => {
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div className="text-wrapper align-left">
                   <h1
-                    className="mbr-section-title mb-4 display-2 text-uppercase"
+                    className="mbr-section-title mb-4 mt-4 display-2 text-uppercase animate-fade-up animate-once animate-duration-[2800ms]"
                     style={{
                       fontSize: "1.8rem",
                       fontWeight: "700",
@@ -24,7 +24,7 @@ const HeroContent = () => {
                     em média.
                   </h1>
                   <h2
-                    className="mbr-text mbr-fonts-style mb-4 display-7"
+                    className="mbr-text mbr-fonts-style mb-4 display-7 animate-fade-down animate-once animate-duration-[2000ms]"
                     style={{
                       fontSize: "1em",
                       fontWeight: "700",
@@ -35,7 +35,7 @@ const HeroContent = () => {
                     Com a gente você aumenta sua margem e escala mais rápido o
                     seu negócio.
                   </h2>
-                  <div className="mbr-section-btn mt-3">
+                  <div className="mbr-section-btn mt-5">
                     <button
                       style={{ marginRight: "10px" }}
                       className="btn-call-action"
@@ -50,12 +50,8 @@ const HeroContent = () => {
                 </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div className=" image-wrapper">
-                  <img width=""
-                    className="img-fluid img-hero"
-                    src={User}
-                    alt="Usuário"
-                  />
+                <div className=" image-wrapper animate-fade-up animate-once animate-duration-[2800ms]">
+                  <img width="" className="img-fluid" src={User} alt="Usuário" />
                 </div>
               </div>
             </div>
