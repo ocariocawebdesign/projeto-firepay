@@ -1,7 +1,7 @@
 import React from "react";
 import Team from "./img/team.jpg";
 import Team2 from "./img/team2.jpg";
-//import App from "./img/app.png";
+import Upsell from "./img/upsell.jpg";
 
 const Content = () => {
   return (
@@ -21,7 +21,10 @@ const Content = () => {
                     marginTop: "1rem",
                   }}
                 >
-                  Checkouts de alta conversão
+                  Checkouts de{" "}
+                  <span style={{ color: "#1D3D91" }}>
+                    <strong>alta conversão</strong>
+                  </span>
                 </h2>
 
                 <p className="mt-2 animate-fade-up animate-once animate-duration-[2800ms]">
@@ -53,6 +56,7 @@ const Content = () => {
           </div>
         </div>
       </section>
+
       <section id="content2" className="">
         <div className="container-fluid background-section-2">
           <div className="container">
@@ -68,7 +72,10 @@ const Content = () => {
                     marginTop: "1rem",
                   }}
                 >
-                  Sua equipe comercial empoderada
+                  Sua equipe comercial{" "}
+                  <span style={{ color: "#1D3D91" }}>
+                    <strong>empoderada</strong>
+                  </span>
                 </h2>
 
                 <p className="mt-2 animate-fade-up animate-once animate-duration-[2800ms]">
@@ -88,6 +95,51 @@ const Content = () => {
                     className="img-fluid rounded img-hero"
                     src={Team2}
                     alt="Time de vendas"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="content3">
+        <div className="container-fluid">
+          <div className="container container-props">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <h2
+                  className="text-uppercase animate-fade-up animate-once animate-duration-[2800ms]"
+                  style={{
+                    fontSize: "1.5em",
+                    fontWeight: "700",
+                    color: "#333",
+                    lineHeight: "38px",
+                    marginTop: "1rem",
+                  }}
+                >
+                  Upsell e downsell{" "}
+                  <span style={{ color: "#1D3D91" }}>
+                    <strong>nativos</strong>
+                  </span>
+                </h2>
+
+                <p className="mt-2 animate-fade-up animate-once animate-duration-[2800ms]">
+                  Pode esquecer as gambiarras para implementar implementar o
+                  <strong> Upsell</strong> e <strong>Downsell</strong>, com
+                  nossos funis você aumenta seu ticket médio em 23%, em média,
+                  configurando em poucos minutos todo seu funil de conversão.
+                  <br />
+                  Se você ainda não usa upsell, está deixando muito dinheiro na
+                  mesa, mas não se preocupe, nossa equipe ajuda você.
+                </p>
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <figure className="animate-fade-up animate-once animate-duration-[2800ms]">
+                  <img
+                    className="img-fluid rounded img-hero"
+                    src={Upsell}
+                    alt="Time de designers"
                   />
                 </figure>
               </div>

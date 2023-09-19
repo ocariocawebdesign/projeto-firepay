@@ -14,7 +14,7 @@
     rgba(66, 137, 201, 1) 35%,
     rgba(118, 191, 223, 1) 100%
   );
- /* border-bottom: 1px solid #333;*/
+  /* border-bottom: 1px solid #333;*/
 }
 
 .container-props {
@@ -31,7 +31,7 @@
 }
 
 #content {
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
   margin: 0 0 28px;
   background-color: #fff;
@@ -47,6 +47,13 @@
   padding-top: 4rem;
   padding-bottom: 2rem;
   margin: 0 0 28px;
+}
+
+#content3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 0 0 28px;
+  background-color: #fff;
 }
 
 .btn-call-action {
