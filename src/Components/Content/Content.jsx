@@ -2,6 +2,8 @@ import React from "react";
 import Team from "./img/team.jpg";
 import Team2 from "./img/team2.jpg";
 import Upsell from "./img/upsell.jpg";
+import Flechas from "./img/flechas.png";
+import Integracao from "./img/integracao.jpg";
 
 const Content = () => {
   return (
@@ -14,9 +16,9 @@ const Content = () => {
                 <h2
                   className="text-uppercase animate-fade-up animate-once animate-duration-[2800ms]"
                   style={{
-                    fontSize: "1.5em",
-                    fontWeight: "700",
-                    color: "#333",
+                    fontSize: "1.8em",
+                    fontWeight: "bolder",
+                    color: "#273240",
                     lineHeight: "38px",
                     marginTop: "1rem",
                   }}
@@ -65,9 +67,9 @@ const Content = () => {
                 <h2
                   className="text-uppercase animate-fade-up animate-once animate-duration-[2800ms]"
                   style={{
-                    fontSize: "1.5em",
-                    fontWeight: "700",
-                    color: "#333",
+                    fontSize: "1.8em",
+                    fontWeight: "bolder",
+                    color: "#273240",
                     lineHeight: "38px",
                     marginTop: "1rem",
                   }}
@@ -111,9 +113,9 @@ const Content = () => {
                 <h2
                   className="text-uppercase animate-fade-up animate-once animate-duration-[2800ms]"
                   style={{
-                    fontSize: "1.5em",
-                    fontWeight: "700",
-                    color: "#333",
+                    fontSize: "1.8em",
+                    fontWeight: "bolder",
+                    color: "#273240",
                     lineHeight: "38px",
                     marginTop: "1rem",
                   }}
@@ -143,6 +145,122 @@ const Content = () => {
                   />
                 </figure>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="content4">
+        <div className="container-fluid">
+          <div className="container container-props">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <h2
+                    className="text-uppercase text-center animate-fade-up animate-once animate-duration-[2800ms]"
+                    style={{
+                      fontSize: "1.8em",
+                      fontWeight: "bolder",
+                      color: "#FFF",
+                      lineHeight: "38px",
+                      marginTop: "1rem",
+
+                      padding: "3rem",
+                      borderRadius: "1%",
+                      cursor: "pointer",
+                      background: "#1D3D91",
+                    }}
+                  >
+                    One-Click-Buy{" "}
+                    {/*<img
+                      className="img-fluid"
+                      width="48"
+                      src={Flechas}
+                      alt="One Click Buy"
+                  />*/}
+                  </h2>
+                  <br />
+                </div>
+
+                <p className="mt-2 animate-fade-up animate-once animate-duration-[2800ms]">
+                  Assim que o cliente realiza uma compra, os dados de compra são
+                  salvos para as próximas transações. Assim, ele consegue
+                  realizar uma nova compra com apenas um clique, aumentando
+                  incrivelmente sua conversão.
+                </p>
+              </div>
+              {/*<div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <figure className="animate-fade-up animate-once animate-duration-[2800ms]">
+                  <img
+                    className="img-fluid rounded img-hero"
+                    src={Upsell}
+                    alt="Time de designers"
+                  />
+                </figure>
+                </div>*/}
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="content5">
+        <div className="container-fluid">
+          <div className="container container-props">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <h2
+                    className="text-uppercase  animate-fade-up animate-once animate-duration-[2800ms]"
+                    style={{
+                      fontSize: "1.8em",
+                      fontWeight: "bolder",
+                      color: "#273240",
+                      lineHeight: "38px",
+                      marginTop: "1rem",
+                    }}
+                  >
+                    Conecte a Firepay a uma ou várias adquirentes
+                  </h2>
+                  <br />
+                </div>
+
+                <p className="mt-2 animate-fade-up animate-once animate-duration-[2800ms]">
+                  Com poucos cliques você integra a Firepay com várias
+                  plataformas. Com a nossa multi adquirência, baseada em
+                  arquitetura de software moderna e arrojada, nossos clientes
+                  aumentaram a taxa de aprovação em 4%, em média.
+                </p>
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <figure className="animate-fade-up animate-once animate-duration-[2800ms]">
+                  <img
+                    style={{}}
+                    className="img-fluid rounded img-hero"
+                    src={Integracao}
+                    alt="Time de vendas"
+                  />
+                </figure>
+              </div>
+              {/*<div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <figure className="animate-fade-up animate-once animate-duration-[2800ms]">
+                  <img
+                    className="img-fluid rounded img-hero"
+                    src={Upsell}
+                    alt="Time de designers"
+                  />
+                </figure>
+                </div>*/}
             </div>
           </div>
         </div>
