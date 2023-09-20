@@ -3040,10 +3040,34 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _img_team_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/team.jpg */ "./src/Components/Content/img/team.jpg");
 /* harmony import */ var _img_team2_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/team2.jpg */ "./src/Components/Content/img/team2.jpg");
-/* harmony import */ var _img_app_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/app.png */ "./src/Components/Content/img/app.png");
+/* harmony import */ var _img_upsell_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/upsell.jpg */ "./src/Components/Content/img/upsell.jpg");
+/* harmony import */ var _img_nuvemshop_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/nuvemshop.png */ "./src/Components/Content/img/nuvemshop.png");
+/* harmony import */ var _img_bling_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/bling.png */ "./src/Components/Content/img/bling.png");
+/* harmony import */ var _img_hubsell_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/hubsell.png */ "./src/Components/Content/img/hubsell.png");
+/* harmony import */ var _img_plugg_to_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./img/plugg.to_.png */ "./src/Components/Content/img/plugg.to_.png");
+/* harmony import */ var _img_woocommerce_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./img/woocommerce.png */ "./src/Components/Content/img/woocommerce.png");
+/* harmony import */ var _img_shopify_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./img/shopify.png */ "./src/Components/Content/img/shopify.png");
+/* harmony import */ var _img_solares_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./img/solares.png */ "./src/Components/Content/img/solares.png");
+/* harmony import */ var _img_magento_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./img/magento.png */ "./src/Components/Content/img/magento.png");
+/* harmony import */ var _img_tray_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./img/tray.png */ "./src/Components/Content/img/tray.png");
+/* harmony import */ var _img_nfservice_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./img/nfservice.png */ "./src/Components/Content/img/nfservice.png");
+/* harmony import */ var _img_integracao_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./img/integracao.jpg */ "./src/Components/Content/img/integracao.jpg");
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+//import Flechas from "./img/flechas.png";
 
 const Content = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
@@ -3059,13 +3083,17 @@ const Content = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "text-uppercase animate-fade-up animate-once animate-duration-[2800ms]",
     style: {
-      fontSize: "1.5em",
-      fontWeight: "700",
-      color: "#333",
+      fontSize: "1.8em",
+      fontWeight: "bolder",
+      color: "#273240",
       lineHeight: "38px",
       marginTop: "1rem"
     }
-  }, "Checkouts de alta convers\xE3o"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "Checkouts de", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    style: {
+      color: "#1D3D91"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "alta convers\xE3o"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mt-2 animate-fade-up animate-once animate-duration-[2800ms]"
   }, "Aumente suas vendas instantaneamente com nossos checkouts testados para reduzir o atrito e maximizar a sua convers\xE3o, voc\xEA pode ainda personalizalos de acordo com sua marca.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Aqui voc\xEA tem uma equipe de engenheiros e designers trabalhando incansavelmente para aumentar os seus n\xFAmeros."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     alt: "Carrinho Checkout",
@@ -3078,11 +3106,49 @@ const Content = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("figure", {
     className: "animate-fade-up animate-once animate-duration-[2800ms]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    className: "img-fluid rounded-circle",
+    style: {
+      borderRadius: "55rem"
+    },
+    className: "img-fluid",
     src: _img_team_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
     alt: "Time de designers"
   }))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    id: "content2"
+    id: "content2",
+    className: ""
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container-fluid background-section-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("figure", {
+    className: "animate-fade-up animate-once animate-duration-[2800ms]"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    style: {},
+    className: "img-fluid rounded img-hero",
+    src: _img_team2_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
+    alt: "Time de vendas"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "text-uppercase animate-fade-up animate-once animate-duration-[2800ms]",
+    style: {
+      fontSize: "1.8em",
+      fontWeight: "bolder",
+      color: "#273240",
+      lineHeight: "38px",
+      marginTop: "1rem"
+    }
+  }, "Sua equipe comercial", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    style: {
+      color: "#1D3D91"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "empoderada"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "mt-2 animate-fade-up animate-once animate-duration-[2800ms]"
+  }, "Imagina cada vendedor acompanhando em tempo real as pr\u1E55prias vendas e agindo instantaneamente nos abonos, vendas n\xE3o aprovadas ou at\xE9 orientando os clientes nas vendas iniciadas.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Aqui a sua equipe comercial tem um acesso exclusivo, com rankings, metas, divis\xE3o por times, insights em tempo real. Tudo para otimizar e impulsionar seu processo de vendas.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    id: "content3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container-fluid"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -3094,26 +3160,189 @@ const Content = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "text-uppercase animate-fade-up animate-once animate-duration-[2800ms]",
     style: {
-      fontSize: "1.5em",
-      fontWeight: "700",
-      color: "#333",
+      fontSize: "1.8em",
+      fontWeight: "bolder",
+      color: "#273240",
       lineHeight: "38px",
       marginTop: "1rem"
     }
-  }, "Sua equipe comercial empoderada"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "Upsell e downsell", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    style: {
+      color: "#1D3D91"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "nativos"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mt-2 animate-fade-up animate-once animate-duration-[2800ms]"
-  }, "Imagina cada vendedor acompanhando em tempo real as pr\u1E55prias vendas e agindo instantaneamente nos abonos, vendas n\xE3o aprovadas ou at\xE9 orientando os clientes nas vendas iniciadas.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Aqui a sua equipe comercial tem um acesso exclusivo, com rankings, metas, divis\xE3o por times, insights em tempo real. Tudo para otimizar e impulsionar seu processo de vendas.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Pode esquecer as gambiarras para implementar implementar o", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, " Upsell"), " e ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Downsell"), ", com nossos funis voc\xEA aumenta seu ticket m\xE9dio em 23%, em m\xE9dia, configurando em poucos minutos todo seu funil de convers\xE3o.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Se voc\xEA ainda n\xE3o usa upsell, est\xE1 deixando muito dinheiro na mesa, mas n\xE3o se preocupe, nossa equipe ajuda voc\xEA.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("figure", {
+    className: "animate-fade-up animate-once animate-duration-[2800ms]"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "img-fluid rounded img-hero",
+    src: _img_upsell_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
+    alt: "Time de designers"
+  }))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    id: "content4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container-fluid"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container container-props"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-xs-12 col-sm-12 col-md-12 col-lg-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "center",
+      flexDirection: "column"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "text-uppercase text-center animate-fade-up animate-once animate-duration-[2800ms]",
+    style: {
+      fontSize: "1.8em",
+      fontWeight: "bolder",
+      color: "#FFF",
+      lineHeight: "38px",
+      marginTop: "1rem",
+      padding: "3rem",
+      borderRadius: "1%",
+      cursor: "pointer",
+      background: "#1D3D91"
+    }
+  }, "One-Click-Buy", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "mt-2 animate-fade-up animate-once animate-duration-[2800ms]"
+  }, "Assim que o cliente realiza uma compra, os dados de compra s\xE3o salvos para as pr\xF3ximas transa\xE7\xF5es. Assim, ele consegue realizar uma nova compra com apenas um clique, aumentando incrivelmente sua convers\xE3o.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    id: "content5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container-fluid"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container container-props"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "center",
+      flexDirection: "column"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "text-uppercase  animate-fade-up animate-once animate-duration-[2800ms]",
+    style: {
+      fontSize: "1.8em",
+      fontWeight: "bolder",
+      color: "#273240",
+      lineHeight: "38px",
+      marginTop: "1rem"
+    }
+  }, "Conecte a Firepay a uma ou v\xE1rias adquirentes"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "mt-2 animate-fade-up animate-once animate-duration-[2800ms]"
+  }, "Com poucos cliques voc\xEA integra a Firepay com v\xE1rias plataformas. Com a nossa multi adquir\xEAncia, baseada em arquitetura de software moderna e arrojada, nossos clientes aumentaram a taxa de aprova\xE7\xE3o em 4%, em m\xE9dia.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("figure", {
     className: "animate-fade-up animate-once animate-duration-[2800ms]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     style: {},
     className: "img-fluid rounded img-hero",
-    src: _img_app_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+    src: _img_integracao_jpg__WEBPACK_IMPORTED_MODULE_14__["default"],
     alt: "Time de vendas"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mt-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "text-center text-uppercase",
+    style: {
+      fontSize: "1.4em",
+      fontWeight: "bolder",
+      color: "#273240",
+      lineHeight: "38px",
+      marginTop: "1rem"
+    }
+  }, "Plataformas de Integra\xE7\xE3o"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "grid grid-cols-5 grid-rows-5 gap-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "box-company"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "",
+    src: _img_nuvemshop_png__WEBPACK_IMPORTED_MODULE_4__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "box-company"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _img_bling_png__WEBPACK_IMPORTED_MODULE_5__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "box-company"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _img_hubsell_png__WEBPACK_IMPORTED_MODULE_6__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "box-company"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _img_plugg_to_png__WEBPACK_IMPORTED_MODULE_7__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "box-company"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _img_woocommerce_png__WEBPACK_IMPORTED_MODULE_8__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-start-5 row-start-2 box-company "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _img_shopify_png__WEBPACK_IMPORTED_MODULE_9__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-start-4 row-start-2 box-company"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _img_solares_png__WEBPACK_IMPORTED_MODULE_10__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-start-3 row-start-2 box-company"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _img_magento_png__WEBPACK_IMPORTED_MODULE_11__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-start-2 row-start-2 box-company"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _img_tray_png__WEBPACK_IMPORTED_MODULE_12__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-start-1 row-start-2 box-company"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _img_nfservice_png__WEBPACK_IMPORTED_MODULE_13__["default"],
+    alt: ""
   }))))))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Content);
+
+/***/ }),
+
+/***/ "./src/Components/Footer/Footer.jsx":
+/*!******************************************!*\
+  !*** ./src/Components/Footer/Footer.jsx ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+const Footer = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", {
+    style: {
+      padding: "2rem",
+      backgroundColor: "#333",
+      color: "#FAFAFA"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "text-center"
+  }, " Template desenvolvido por Carlos Abreu")));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
 
 /***/ }),
 
@@ -3148,9 +3377,7 @@ function Header() {
     expand: "lg",
     className: "bg-body-tertiary",
     style: {}
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    fluid: true
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"].Brand, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"].Brand, {
     href: "#",
     style: {
       padding: "0.5rem"
@@ -3162,13 +3389,14 @@ function Header() {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"].Toggle, {
     "aria-controls": "navbarScroll"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"].Collapse, {
+    style: {},
     id: "navbarScroll"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: "me-auto my-2 my-lg-0 text-uppercase",
+    className: "me-auto my-2 my-lg-0 text-uppercase ",
     style: {
       maxHeight: "100px",
-      marginLeft: "10rem",
       fontSize: "14px",
+      marginLeft: "10rem",
       fontWeight: "700"
     },
     navbarScroll: true
@@ -3276,13 +3504,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ "./src/pages/index.css");
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Components_Header_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Components/Header/Header */ "./src/Components/Header/Header.jsx");
-/* harmony import */ var _Components_HeroContent_HeroContent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Components/HeroContent/HeroContent */ "./src/Components/HeroContent/HeroContent.jsx");
-/* harmony import */ var _Components_Content_Content__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Components/Content/Content */ "./src/Components/Content/Content.jsx");
-/* harmony import */ var _styles_global_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/global.css */ "./src/styles/global.css");
-/* harmony import */ var _styles_global_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_global_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _styles_tailwind_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/tailwind.css */ "./src/styles/tailwind.css");
+/* harmony import */ var _styles_tailwind_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_tailwind_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Components_Header_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Components/Header/Header */ "./src/Components/Header/Header.jsx");
+/* harmony import */ var _Components_HeroContent_HeroContent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Components/HeroContent/HeroContent */ "./src/Components/HeroContent/HeroContent.jsx");
+/* harmony import */ var _Components_Content_Content__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Components/Content/Content */ "./src/Components/Content/Content.jsx");
+/* harmony import */ var _Components_Footer_Footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Components/Footer/Footer */ "./src/Components/Footer/Footer.jsx");
+
 
 
 
@@ -3291,12 +3521,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const IndexPage = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Header_Header__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_HeroContent_HeroContent__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Content_Content__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "text-center text-3xl font-bold animate-fade-up animate-once animate-duration-[2800ms]"
-  }, "P\xE1gina Index")));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Header_Header__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_HeroContent_HeroContent__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Content_Content__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Footer_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
-const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Home Page");
+const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Firepay");
 
 /***/ }),
 
@@ -3320,10 +3548,10 @@ const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement
 
 /***/ }),
 
-/***/ "./src/styles/global.css":
-/*!*******************************!*\
-  !*** ./src/styles/global.css ***!
-  \*******************************/
+/***/ "./src/styles/tailwind.css":
+/*!*********************************!*\
+  !*** ./src/styles/tailwind.css ***!
+  \*********************************/
 /***/ (() => {
 
 
@@ -38091,10 +38319,10 @@ function canAcceptRef(component) {
 
 /***/ }),
 
-/***/ "./src/Components/Content/img/app.png":
-/*!********************************************!*\
-  !*** ./src/Components/Content/img/app.png ***!
-  \********************************************/
+/***/ "./src/Components/Content/img/bling.png":
+/*!**********************************************!*\
+  !*** ./src/Components/Content/img/bling.png ***!
+  \**********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -38102,7 +38330,127 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/app-6788f6ad415850d6e3f8cab7ecebe00b.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAYCAYAAABN9iVRAAACW0lEQVR42t2Y7W3CMBCGM0JH6AgdISMwQjdoNygbwB+E+FLYgG7ACBmBETwC9YNsyXrl5CwLUsFJJ4Jjn++9L5/T7Pf7brfbneHtdntqCoi5CS8Y67rubbPZfHsZn83EtF6v39HlcDgs/HNbvNAre/ELr7A3xKUQ/DXhs8rxRpg3ExIGZ1/hHmdiEJzieYZhIq9Wq4+7gMfyunEzIXm9ZwCNWCwGJzrfzfP8JmOTeV7Dv8AAjnn3DPs43gbB/0LUL8vrpMhozpMTIU/m/ALIAq/5pGMUxET2PPAsB0LnoTA6ICOVqWssr2OcsYLH88/A4p9h8HYdQFlqQS7/omEgnlmfm6eFTY1VlOd58DYTBZXgYTfmkQp9XIqDCCkKdwWvForndcYDrgK8ykbJo77D4+yZ8zbVXPXU+qS65uaa4DU0MqHa1oDXsFNlqRN+Tq+6SDq4IUASWcptVZNDFGj4VIBn3e+YXP6rDEtXMYwAFjk14BUsYVvp+c6Sq/MtXaXYGV6f0PP14DVSbF2RZee6nfOOEDIah/YR4MN/p7pYOa+VXmWa4FVJFA/vvnKWfBR4z0uR01MIQ9t6YswEr+/Lwdut4SPBs8ao2kPgj9newSJZsFQhell5JPgw/jHgkDNHoQFeC135hwkUpqFIzmDHM2NDa7gv58aQlY7F7jBS3CfhVm5nnxgMjvtLH9CLIaOc/maYV6Js3/BqhJeJEgpdeo6TCkO5T3TcbojPTiM9evkXmmclC2DJl5qnNQCFj1MnFq8Atie0eUezYxmAc795ZQpN0UlunQ6jlXr+D1k1IE1GOpx6AAAAAElFTkSuQmCC");
+
+/***/ }),
+
+/***/ "./src/Components/Content/img/hubsell.png":
+/*!************************************************!*\
+  !*** ./src/Components/Content/img/hubsell.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAAAUCAYAAACQ9yOWAAAE9ElEQVR42u2ZaWhUVxTHp23a2sWibaFBBhPtGNpoa2iaZDJZGIrdFDQIwSUuQfwkosaYZLJMmEx2goooIvhJVBBxQ0X9oHGLu7h8EHdFFIJGHTQGRcHr/8C5cHncOzNv9InIPPjz3l3O3X5z3j3vjouulpaWKW1tbftbW1svQ7tDodBIl+EKBAKe+vr6zXV1dZdra2sPVVdXT3QlL2euzs7Okvb2dgE4AmAEQIlwOBxpbm4eZa1bU1MzvKGhIQI4AnAEQAnkkaab2vf7/d8WFRXNgMq9Xm/6+5hTQUGBl/orLCwc5/qAr7y8PDfG6CfJPJ/PV0xpzGEYwTmigSOamprC1saCweBKwBEaOBeiwElFZ88hgY7L3xOc5dQfdML1AV/8AxIkmYfnCCQwh0UE57YODrTR2hjAbNLBwautLwnHATgdHR1bDXCWaDxngcFzdiThOAAHYDwA1KvCwX7Tg6Dga83+NBhwTlrgRKqqqkYl4TgAhy6AmcxwSI8BJl1WxvMwABmhRGvpgDPAcEhllJ+E4wQcvgDlFHvOUobigc5DorGxkXQFr7XRVIYQOkBwcO+mdBKOw3DgOYsYjg9AUhCtXSQwChwBOJeoLgIAL3tOhR04UD8G1KsTyi7hXoHw8jtlkcfLcjwPNvWhaatfTjpKf3ehbVCGtT3kzUGd0+jzntaelZOTk8omMgyeST+IKH3uQ50xiXhOOSSwB41EMJANOEIDh7zlF+wxqYDzHJBK7MGJLQx4C8w+4cGXyHy0M8TUB9dJVANYsDTlB1EVr60KB+kFcdo9yM3N/cE2HPacNAQEv5rgAMofbwFnOxQyqFuZwFi7cHhCG7itU5x309Qfv/pes91aHmsK+nzGeWxrFn1gk11paelnSPdxn1ehxbS4qpBXL/uj54Rea4Dxe1dX1ze61xoCg1u85+QBDkVqi23vOeZ6blmPThQSgUP17ew5qLdarcdf7IKUn5//n8bENPYfyYbn+E+UcZ7neh124ezlaC1IabzaRgPMdTUgwHMGlSFaa+c957hdODbqOQ9Hrceeg+dnnHeMFkjjAQshv2bsgrVGZwdVoGyAFz4QNxwA+Vf5zokAQqoSSmdCHpmurKxMA5inDOcVvGfSxwKH84KcF0sHMaZBKpw4dZ88NN4TguEIAh5aPkIPY+GHSgMF1KfYd45bPkIf4DWX8bHA4fYq0dY53Hutgs0jZY9booHTa7C7h/sZzC3fzvHNTsPxzVzN8c08w/HNdifg4D5BmbT2B0ARk7JY/ycKxzCmQTpRCM79HdDAGaezyc7O/jyRg89rOjjwknU2Dj4fOwEHm/L3SL9gr9jhdru/Um08Hs+XKFsnJ4gQdQQvepjz7uAV8pOpT4LC9Q5pK5jt9vACHuX0UNWb3uWpdI/hL4NlGs9ZYfCcs07A4cGG5AS4PCIl6zO8ldKmuLj4L0zupcFGakCxnU92WVlZQ6gshp4oIMKKFx5RxhmJU/2xDj7LIWHZc/rUIEA9VwOcfo3nzHQKDk98lfxGMGiVPFlQoUqviya0vZ6iNAWOiFN76PtG9kd/JKKtO1xmV+ZoDfvOVMDpAZzbgLML6d9Miwg4PwPOXgQBNwCmG2BmU769f0Lt1+O9ZRqVS8FDymK0SQtWptpIoa1Z0FhL/RQqiyW0+aeuv8zMzC9Q9jfVsSvlCGgqpX0+35g3bEhPzCfNRQoAAAAASUVORK5CYII=");
+
+/***/ }),
+
+/***/ "./src/Components/Content/img/integracao.jpg":
+/*!***************************************************!*\
+  !*** ./src/Components/Content/img/integracao.jpg ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/integracao-8693b6c27cd2dc48ed9d4f0922001a1b.jpg");
+
+/***/ }),
+
+/***/ "./src/Components/Content/img/magento.png":
+/*!************************************************!*\
+  !*** ./src/Components/Content/img/magento.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAAaCAMAAAANMMsbAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAACxMAAAsTAQCanBgAAAMAUExURUdwTI+Pj0xMTI6Ojo6OjpWVlY+Pj1VVVU1NTYCAgI6Ojv///wAAAE1NTU1NTUtLS01NTUxMTFFRUY+Pj0xMTCoqKk1NTUBAQE1NTUxMTElJSU5OTlVVVY+Pj0tLS01NTUBAQExMTDMzM01NTUBAQFBQUI6Ojk1NTU1NTU1NTUxMTEtLS4yMjE5OTk1NTU1NTU5OTk1NTU1NTURERE1NTU1NTU1NTUxMTImJiY6OjpGRkY+Pj01NTURERIeHh0xMTExMTJCQkE1NTU1NTUxMTExMTFBQUElJSUxMTExMTE1NTUlJSU1NTU1NTUpKSklJSU1NTU1NTVVVVU1NTUxMTExMTExMTFJSUk1NTU1NTUxMTE1NTUxMTE1NTUlJSY+Pj0xMTE1NTU5OTpCQkI6OjpCQkI+Pj4+Pj5GRkY+Pj4yMjJCQkI6Ojo6Ojo+Pj46Ojo+Pj4+Pj4+Pj4+Pj5CQkIyMjI+Pj4+Pj46OjoODg4+Pj46Ojo6OjkpKSo+Pj0xMTE5OTkxMTE5OTk1NTUxMTE1NTUZGRk5OTkxMTI6OjktLS01NTU5OTktLS01NTUxMTE1NTVVVVUxMTE5OTkxMTEtLS01NTU1NTUxMTExMTE1NTUxMTE1NTU1NTU1NTUtLS01NTU1NTUxMTE1NTUxMTE5OTkZGRk1NTU1NTU1NTU9PT01NTU1NTU5OTkxMTE5OTklJSU5OTo+Pj5CQkJCQkKKiopKSkoyMjI+Pj4+Pj5CQkE5OTo+Pj4+Pj5CQkI+Pj42NjUxMTI+Pj4+Pj42NjY6Ojo+Pj5CQkE5OTk9PT01NTYCAgICAgJSUlI+Pj5mZmY6OjkxMTI6Ojk1NTY+Pj46OjgAAAI+Pj4qKio+Pj4+Pj1VVVUtLS0xMTJKSkk1NTU1NTUxMTFFRUZCQkExMTJOTk0xMTE9PT0xMTExMTE5OTk1NTUxMTE5OTkxMTFJSUlBQUE5OTktLS05OTo6OjkxMTJCQkE1NTU1NTY6OjktLS05OTkBAQExMTI+Pj46Ojm/cNzUAAAD+dFJOUwD4L6VxDDkJ0QLMAQHaTHOj0hP+sQZdBLIbDjQDmSWSCFcFUwwQP9bKRU4sQSTQxhqzKhFJmOggDYgRLvMPBk+KTttntuYgI24n1QeZ6xkcl88MnGF6ZA3iuia9q9QVQG3lMpqawvPrLMQlHl8f9kPp0tznY0z84dkTyv30O9D18KDpqXb+C1UKIl6F3L6D0PIGSjvwM9fYHb+C3WPE5BGmQijffHwUx67NUnRqYcbSN3r9TKMLHEWWsGVLy4ZuplyaxquN96BH5ldwBAoTwRmiePmOlGEEzSPtfQ8iaw41y1QscZMatDpRibQ/aFyvHzbFFqFqjZFmpd19wRD7ciAJkAAAA45JREFUSMdjYIAC7lzLQ6UyDDQBViVF//6VHc6igdGc2/dU/wOBdMtt1Dbben8e0OC0CpDxdbvsqBoie9OBhgrvtK7cVwxipOZzU8toi5xykIlVjpxATvaOGiBn0xZrTuoYngoKi+LH96BctkxGIL9gMzgmFO1hyWdqmBRxxqF6GmhU3pWnSD45UCj87x8LiMnOUa8NEZyo38pElNkdjYtQDRe+ygOkOx0ZGG6UngayzhfCDXe6CFH03HUKcYYLCUqjGa7GwGD35SczMExuMmcDhbjghvt4XQMr8jF0AhnOqdoBTbpSsEhpuw0LCBVvhOE8trZIhn/79w9kOOO/S2eQDVeepgxiKCWu5WVimBhq5moz1wjI9zjR0JTgLM/AYGA4palHkYHBuXG3k029vDef2V/f36o8ml4TbAQnww1Phhn+jxXZcL5Zr0BB9nadOdDwpb26DDxzokUZuvXdGaQc1AUYolaGiTM8Up/EwO8r78bg1p8gqqu+8A93+zwTJU5N3kkgw//jMVx3MdClPHPXSgINFzABihmsfO8XcR/kGw0Bhq8CIGUPHzDwT1cFMhJixEHBIs4hBhJOiGQnYDhDczcDg9wEY5Dh4eIM4v4hi+W0YsHhGSoQpK+sAgRyrfP5XUAiYhKiIMOTToCT7YxpRqCkGM/AkILLcOXZCgxLfjCADJ+/5t36mQti5cIiwYZ/FzCYrq4HBIK+d/hFkAxftR4srxo4mZDhQuqaUj1TwYZrxGhzMsStk1PUAGteLRAXmwRNKSiGm/DygFMlxwZChvOErugCGgY03MjsE8izXnLmZuag1BgtwCOyGqTM+K44iuHLEsF5IonDDWS4DgODLC7DGTwjAlsghs8DmimzMUKOwXRFFE/QmtkCDGsDDYAZvmUmsss3MDAEBLMzMCgY+vAQNFwhsmEG2HAZlwVaWsEBy38Zq5p+jNYPXiLA0PYk0Nn+sqs2wnBbQwn+cPdnzYrtIr3LGBjO/cdieIEjOB/y6QLJKE1gHvR+IcUQHhLgUCv+YSM7A/cnTz/OpQHA9FjrcPCUH9B7WiD1/gu5GYznAAs79pPy8spBkCIX3fCqCxn4ilyZz6DiTGl5FzGFzVkrsOF11pW3ysCGdxKoLDw03pgoGsYoEFuqAw3/VwOu5rYSofr1rICXq4g2myH/OqSCrrHkpEH9bwdqWhw9lkWbhgt37pHM46zUNRMAh9510UBz1pwAAAAASUVORK5CYII=");
+
+/***/ }),
+
+/***/ "./src/Components/Content/img/nfservice.png":
+/*!**************************************************!*\
+  !*** ./src/Components/Content/img/nfservice.png ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,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");
+
+/***/ }),
+
+/***/ "./src/Components/Content/img/nuvemshop.png":
+/*!**************************************************!*\
+  !*** ./src/Components/Content/img/nuvemshop.png ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,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");
+
+/***/ }),
+
+/***/ "./src/Components/Content/img/plugg.to_.png":
+/*!**************************************************!*\
+  !*** ./src/Components/Content/img/plugg.to_.png ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAAAWCAYAAACi7pBsAAAFW0lEQVR42u2Ze2ydYxzH3w0xzGwSNmzdsE1cy+oyJtGYJZrezzm9t9kx2rgtQg1BrCTbLMjwB1m2xIpgwx9roiIdFh3pdDYmWlkj7sQtRDRoaX2+ye+Vx5v3nJ5m5z1/WH/J9zzP8/v9ntv3fe7Hy0QqKyvzq6qqHqmpqekBe6urq/cQ9qLbBi51fSsqKk7H3oq+IBaLzW1qajrRm5DMpaCg4AjIXQeJr0DispaWlqN9G+nDsOVj20r8aZAnfTweP5v4ILhB+fDpLyoqmuZNSGYCaWsh79GSkhLITi343IJvB+FUpRnhp0F2TMQb+UvQzfYmBElPZBnEvTCOD3QvWG+j/QLlJ72C5WY64Q+knwjJEwfNAnVdR1haVlZ2rNOGWb5d5YS0MSEbeeYrzVJ2DLqkdLW1tXMcv6mgnjru1yAIK6uurm4mtpvlQ96ElyVhlh8pZEriHkbnSV6GotlAo98i33M0/A3iPUZAI2gmPj+kjnfAaADfgqv8vcR0f2t/CCH9A9mp7xpLn0D6N8sTlw4C56HvDdTxBcTP80zIfw66n10f8uweHR2dlIKbdtAXBvJdIZ+GhobZpLeAYXTDhB02EMJFa3WGozxIQh6j/EJVTCU3iVTtCf7oTUP6iIh1Ovy9PmI2SNd+45cBusAflt6lfamwsPBw8n9m9X5D2A1GzOeBFP18U/YwJBKJpZQ5hfi+EPunoVzoa2B8UqRlaV+4nU49Pwbpa9ra2ia7I47Gl2SDdMLfjdBK80mafUh9Je9is4+oDvN5ynR7U7Q7ju02wpesrF+UNuRpZpt+0GZ6q9OuNW5BS8iwA3SCVf70yxLxW+lgcTrSnVnWLx0zpjoLpE9WXiOwwAZVoTOjzgDLLD7olLvKfAbG6Nf15vd1QL/eytzulPma+W7yR3ezvqpGmheBqFxNyQxJ74uSdMJzSb8vNDY2zg8jnfRy83n1IEnf5ug6TLfZq6+vn0viQzoY6SXGCH6GSo9PRzrxPiMyFgXpQQmSHpRISKfBDxOp96IXzagmnXC0mbiko9vIGn6ZrX2jAiQvyjbp1LGS+KCPsOWFsp51fPZHQjqR3XaOzInosgWudUkPwU7Zs0064a2Kp1vTCV92fAaiIv1dL4eSTCanQ1JngPS/wBD4CbSz5M2IgnT8ziS+IR3pln4xUtLVcC/HQp1vB0h/nCXn5OLi4hmu3//g9JJypO+yN5OciI6i1Pd6qo30kCCdn/tAk5cj0aapy0M2SVfnLZ3n3DgrUE0iHLYPs9h8rnRJ5yMstfSQbqjWrtWm+zgq0o/TLl1aWnrqQR4JKygrQSdqtGERPz/E5w5/kxwn6SPagEWGoVUEEW7xOw1WQOy/m6CemI3kA0Z6nwaXcz3/ivRR4BSVbz6b7Db5ufl0+bdq1UuZ52VI+t1W3gEdkTVg5GO+j3nOheEjwntYW2d64xA9CqlRKjj4Smm33Iup/C7i73FkW63r/nhJD0JvJDpxYV9IejDEvtEzoc6YP9oDuNNpx4ag3UhbaPbvrNxkJqSTbxG6X/1lS3DKvOg/r4RqCNgJ9mPswbmb+FjYpxGkhyMPsRe2aTY6ftTDmY6IYFbITXWzjqzYWrwQYWQt0OlKPgFst/p0uVtgf7J8CT5RH4J7FLpGdKpH5A2A5dIHRyf2fnvl7CZ+udPOLtALyjMh3fKsDHzsP8HatG/AOrZp6dFFJh20Luo9gbAXdIId9iHWlZeXzyG82jOJ+l8uzboxjqtTNNPSzVotOV6GYkfQZsLaFPvXWcy0G7Xc4pPvZVv0zxAj8xItVe7Rz8687d6E5E4g/EG+9kPaULwJkXj/ANx+c8yCQJe0AAAAAElFTkSuQmCC");
+
+/***/ }),
+
+/***/ "./src/Components/Content/img/shopify.png":
+/*!************************************************!*\
+  !*** ./src/Components/Content/img/shopify.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,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");
+
+/***/ }),
+
+/***/ "./src/Components/Content/img/solares.png":
+/*!************************************************!*\
+  !*** ./src/Components/Content/img/solares.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,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");
 
 /***/ }),
 
@@ -38133,6 +38481,51 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/team2-7169dff82e25ba21d92fddbf1660e2fb.jpg");
+
+/***/ }),
+
+/***/ "./src/Components/Content/img/tray.png":
+/*!*********************************************!*\
+  !*** ./src/Components/Content/img/tray.png ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAYCAYAAAC1Ft6mAAAEGElEQVR42t2XXWhUVxDHb0JSatSFbpPN5yZRtllI24WQhhbstiEtDbRBhFBEpFBK09q8tKSyDSVNQ+gKSUqX5mPTPJS+tBRaBBX8wg9E1DdFwY8o+KSo0QdF/AjGvdffXGblEu6ao0TIOvDnnDtnzmT+c87M2VhZqampeTMcDsdDoVDMehEEMjsgZYNd1osgENoGHLDXymfhRGKVlZXrGI8JIcaT8i0oLy9/22tbX1//sthXV1d/jW2SMQ1+Zf6G+qpmvg7dj8xHGScYE1VVVU0sF1oqFRUVLVmwFkVVMDExER4bG2vLYmRkpC0ajbro6+sT3YJgzyoJ4mch4gfWdloqBNfG9zR628dO6q6I+Z4cvh6w/6/GxsaXlLjt2XuexC0noG/Hx8edLPr7+53a2lrXpre3V3QLAh+bJdBPcLoVzOgfuSbfAuY/ea7kJl3PyCkypsD3ZDhRWlq6Ukn/gm4f4xZZw+4HxiPAFmC7WQntBifU3yyBrx4dHd3gDa67u9slU1dX56RSKVNC601ryEvoLlel3s9GT6DQq5Psa3Icxoueq/4auC16EvBpOp1eTUCZbHCdnZ0uoaamJiMyIIOP2LMQugOqnrLhfKOEboNlqi5mfkp9pjmhAEFd0kw78XjcJdTR0WFK6BaEXnlehJZzDSvJfA3NpZTAu7KnW1ZWtsLj8w8leqG5ubmYoHYDZ2hoyIlEIi6hnp4e0+t2wEIWj5B2THCI9fvA8WDWjxC270vDAA8h3kxgHwO7q6vrcf0MDw+bELI54Y2LSojgIuivaMbPSesGn2lj2JGD0DJwWusoTeteQXBn29vbXUItLS2SeZPTOTM1NVWy2IR+VzKX6WbheXs/9yOka93ABrf42VU+ODj4XSwWc1s2J2VaP0m/6/K//tHDz0joPyW0n88CU0LBYDAg3U/XU2A9sBsaGpxkMmlCZnpycjJkzReO/DcNaIb7/K6qi0ChCSEJRvdfx9c783xv8iWkIr9KhIR2wWmx5dqZ1k6/5SdckzU4k2AdxRy4TwAVJoTkbUJ/WW0ykDiKv3+YH1ddTkJIAWvbPXY2D+u0AaGDAwMDJU96L9aCMwRyT7vPTbJXq2sbpNglwEAgEBRdjsbwL7gBZvme0yRdA3+Cj6wcIomjbma0QexMJBIryX6cgm/1A2TekyZiLST0/wDOI2S8UYq7tbW1SJcK5dUXLOCigL1l7I0yvo79KkgFRQ9yirxbkkDgsHetle8CkS3ZpuImLZ+FK9agpzML4la+CyTeon565SF2r3g+CyRelbYtNWe6R373Yf8hWOPW5lISauZvbdVXpXsa7tkIMuyx5VStpSQEtksJ3aQZhEz2cDJf6EM8J4+2tZRE/lsluB4C+8B0D1e0BPuvIPQln8XetUfZhh5lw1b1/QAAAABJRU5ErkJggg==");
+
+/***/ }),
+
+/***/ "./src/Components/Content/img/upsell.jpg":
+/*!***********************************************!*\
+  !*** ./src/Components/Content/img/upsell.jpg ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/upsell-47f446358d58bd7c6f1e30bd9fb9d3dc.jpg");
+
+/***/ }),
+
+/***/ "./src/Components/Content/img/woocommerce.png":
+/*!****************************************************!*\
+  !*** ./src/Components/Content/img/woocommerce.png ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,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");
 
 /***/ }),
 

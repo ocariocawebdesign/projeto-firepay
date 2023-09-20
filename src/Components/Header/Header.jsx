@@ -10,18 +10,18 @@ import LogoLight from "./img/logo_claro.png";
 function Header() {
   return (
     <Navbar fixed="top" expand="lg" className="bg-body-tertiary" style={{}}>
-      <Container fluid>
-        <Navbar.Brand href="#" style={{ padding: "0.5rem"  }}>
+      <Container>
+        <Navbar.Brand href="#" style={{ padding: "0.5rem" }}>
           <img src={LogoLight} width="180" alt="Logo Firepay" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Collapse style={{}} id="navbarScroll">
           <Nav
-            className="me-auto my-2 my-lg-0 text-uppercase"
+            className="me-auto my-2 my-lg-0 text-uppercase "
             style={{
               maxHeight: "100px",
-              marginLeft: "10rem",
               fontSize: "14px",
+              marginLeft: "12rem",
               fontWeight: "700",
             }}
             navbarScroll

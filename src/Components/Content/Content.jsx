@@ -2,7 +2,18 @@ import React from "react";
 import Team from "./img/team.jpg";
 import Team2 from "./img/team2.jpg";
 import Upsell from "./img/upsell.jpg";
-import Flechas from "./img/flechas.png";
+import Nuvemshop from "./img/nuvemshop.png";
+import Bling from "./img/bling.png";
+import Hubsell from "./img/hubsell.png";
+import Plugg from "./img/plugg.to_.png";
+import Woocommerce from "./img/woocommerce.png";
+import Shopify from "./img/shopify.png";
+import Solares from "./img/solares.png";
+import Magento from "./img/magento.png";
+import Tray from "./img/tray.png";
+import Nfservice from "./img/nfservice.png";
+
+//import Flechas from "./img/flechas.png";
 import Integracao from "./img/integracao.jpg";
 
 const Content = () => {
@@ -48,7 +59,8 @@ const Content = () => {
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <figure className="animate-fade-up animate-once animate-duration-[2800ms]">
                   <img
-                    className="img-fluid rounded-circle"
+                    style={{ borderRadius: "55rem" }}
+                    className="img-fluid"
                     src={Team}
                     alt="Time de designers"
                   />
@@ -63,6 +75,16 @@ const Content = () => {
         <div className="container-fluid background-section-2">
           <div className="container">
             <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <figure className="animate-fade-up animate-once animate-duration-[2800ms]">
+                  <img
+                    style={{}}
+                    className="img-fluid rounded img-hero"
+                    src={Team2}
+                    alt="Time de vendas"
+                  />
+                </figure>
+              </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <h2
                   className="text-uppercase animate-fade-up animate-once animate-duration-[2800ms]"
@@ -89,16 +111,6 @@ const Content = () => {
                   rankings, metas, divisão por times, insights em tempo real.
                   Tudo para otimizar e impulsionar seu processo de vendas.
                 </p>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <figure className="animate-fade-up animate-once animate-duration-[2800ms]">
-                  <img
-                    style={{}}
-                    className="img-fluid rounded img-hero"
-                    src={Team2}
-                    alt="Time de vendas"
-                  />
-                </figure>
               </div>
             </div>
           </div>
@@ -241,6 +253,18 @@ const Content = () => {
                   arquitetura de software moderna e arrojada, nossos clientes
                   aumentaram a taxa de aprovação em 4%, em média.
                 </p>
+                <div className="mbr-section-btn mt-5">
+                  <button
+                    style={{ marginRight: "10px" }}
+                    className="btn-call-action"
+                    href="#"
+                  >
+                    Comece agora
+                  </button>
+                  <button className="btn-call-action" href="#">
+                    Agende com um consultor
+                  </button>
+                </div>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <figure className="animate-fade-up animate-once animate-duration-[2800ms]">
@@ -261,6 +285,79 @@ const Content = () => {
                   />
                 </figure>
                 </div>*/}
+            </div>
+            <div className="mt-4">
+              <h3
+                className="text-center text-uppercase"
+                style={{
+                  fontSize: "1.4em",
+                  fontWeight: "bolder",
+                  color: "#273240",
+                  lineHeight: "38px",
+                  marginTop: "1rem",
+                }}
+              >
+                Plataformas de Integração
+              </h3>
+              <div id="companys" className="grid grid-cols-5 gap-4">
+                <div className="box-company">
+                  <img className="" src={Nuvemshop} alt="" />
+                </div>
+                <div className="box-company">
+                  <img src={Bling} alt="" />
+                </div>
+                <div className="box-company">
+                  <img src={Hubsell} alt="" />
+                </div>
+                <div className="box-company">
+                  <img src={Plugg} alt="" />
+                </div>
+                <div className="box-company">
+                  <img src={Woocommerce} alt="" />
+                </div>
+                <div className="col-start-5 row-start-2 box-company ">
+                  <img src={Shopify} alt="" />
+                </div>
+                <div className="col-start-4 row-start-2 box-company">
+                  <img src={Solares} alt="" />
+                </div>
+                <div className="col-start-3 row-start-2 box-company">
+                  <img src={Magento} alt="" />
+                </div>
+                <div className="col-start-2 row-start-2 box-company">
+                  <img src={Tray} alt="" />
+                </div>
+                <div className="col-start-1 row-start-2 box-company">
+                  <img src={Nfservice} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="container flex justify-center mt-4">
+              <div className="flex flex-col max-w-4xl md:h-56 bg-white rounded-lg shadow-lg overflow-hidden md:flex-row my-10">
+                <div className="md:flex items-center justify-center md:w-1/2 md:bg-blue-700">
+                  <div className="py-6 px-8 md:py-0">
+                    <h2 className="text-gray-700 text-3xl font-bold md:text-gray-100">
+                      Inscreva-se para atualizações do projeto
+                    </h2>
+                    <p className="mt-2 text-gray-600 md:text-gray-400"></p>
+                  </div>
+                </div>
+                <div className="flex items-center justify-center pb-6 md:py-0 md:w-1/2 md:border-b-8 border-blue-700">
+                  <form>
+                    <div className="flex flex-col rounded-lg overflow-hidden sm:flex-row">
+                      <input
+                        className="py-3 px-4 bg-gray-200 text-gray-800 border-gray-300 border-2 outline-none placeholder-gray-500 focus:bg-gray-100"
+                        type="text"
+                        name="email"
+                        placeholder="Digite seu email"
+                      />
+                      <button className="py-3 px-4 bg-blue-700 text-gray-100 font-semibold uppercase hover:bg-gray-600">
+                        enviar
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
         </div>
