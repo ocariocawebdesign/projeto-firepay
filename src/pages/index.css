@@ -116,6 +116,10 @@
     margin-left: 0 !important;
   }
 
+  h1 #title-hero {
+    font-size: 1rem;
+  }
+
   .btn-call-action {
     margin-bottom: 10px;
   }
@@ -133,6 +137,10 @@
 
   nav #menu {
     margin-left: 0 !important;
+  }
+
+  h1 #title-hero {
+    font-size: 1rem;
   }
 }
 

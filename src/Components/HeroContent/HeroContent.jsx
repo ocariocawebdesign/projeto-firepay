@@ -10,10 +10,10 @@ const HeroContent = () => {
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div className="text-wrapper align-left">
-                  <h1
+                  <h1 id="title-hero"
                     className="mbr-section-title mb-4 mt-4 display-2 text-uppercase animate__animated animate__fadeIn"
                     style={{
-                      fontSize: "1.8rem",
+                      fontSize: "1.7rem",
                       fontWeight: "700",
                       color: "#FFF",
                       lineHeight: "38px",
