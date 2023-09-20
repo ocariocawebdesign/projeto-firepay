@@ -242,7 +242,7 @@ const Content = () => {
                   >
                     Conecte a Firepay a uma ou várias
                     <span style={{ color: "#1D3D91" }}>
-                      <strong>adquirentes</strong>
+                      <strong> adquirentes</strong>
                     </span>
                   </h2>
                   <br />
