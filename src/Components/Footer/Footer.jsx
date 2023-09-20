@@ -1,4 +1,6 @@
 import React from "react";
+import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton";
+import Logo from "./img/logo_escuro.png";
 
 const Footer = () => {
   return (
@@ -10,7 +12,26 @@ const Footer = () => {
           color: "#FAFAFA",
         }}
       >
-        <p className="text-center"> Template desenvolvido por Carlos Abreu</p>
+        <div className="container">
+          <div className="row">
+            <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img src={Logo} width="180" alt="Logo Firepay" />
+            </div>
+            <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <p className="text-center" style={{ marginTop: "15px" }}>
+                Copyright © 2023 - Desenvolvido por Carlos Abreu
+              </p>
+            </div>
+            <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <div
+                className=""
+                style={{ display: "flex", justifyContent: "end" }}
+              >
+                <ScrollToTopButton />
+              </div>
+            </div>
+          </div>
+        </div>
       </footer>
     </>
   );

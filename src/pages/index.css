@@ -94,6 +94,16 @@
   justify-content: center;
 }
 
+.heartBeat-effect {
+  text-align: center;
+}
+
+.heartBeat-effect:hover {
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
+  text-align: center;
+}
+
 /*Mobile*/
 
 @media only screen and (max-device-width: 480px) {
@@ -102,7 +112,11 @@
     display: none;
   }
 
-  .btn-call-action{
+  nav #menu {
+    margin-left: 0 !important;
+  }
+
+  .btn-call-action {
     margin-bottom: 10px;
   }
 }
@@ -111,6 +125,14 @@
   /* default iPad screens */
   #companys {
     display: none;
+  }
+
+  .btn-call-action {
+    margin-bottom: 10px;
+  }
+
+  nav #menu {
+    margin-left: 0 !important;
   }
 }
 

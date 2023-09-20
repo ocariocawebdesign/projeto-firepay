@@ -3081,7 +3081,7 @@ const Content = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: "text-uppercase animate-fade-up animate-once animate-duration-[2800ms]",
+    className: "text-uppercase animate__animated animate__fadeInLeft animate__delay-2s",
     style: {
       fontSize: "1.8em",
       fontWeight: "bolder",
@@ -3094,17 +3094,17 @@ const Content = () => {
       color: "#1D3D91"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "alta convers\xE3o"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "mt-2 animate-fade-up animate-once animate-duration-[2800ms]"
+    className: "mt-2 animate__animated animate__fadeInLeft animate__delay-3s"
   }, "Aumente suas vendas instantaneamente com nossos checkouts testados para reduzir o atrito e maximizar a sua convers\xE3o, voc\xEA pode ainda personalizalos de acordo com sua marca.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Aqui voc\xEA tem uma equipe de engenheiros e designers trabalhando incansavelmente para aumentar os seus n\xFAmeros."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     alt: "Carrinho Checkout",
-    className: "animate-fade-up animate-once animate-duration-[2800ms]",
+    className: "animate__animated animate__fadeInLeft animate__delay-3s",
     width: "48",
     height: "48",
     src: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFoklEQVR4nO2cX2gcRRzHR1Er9kFFECwKIhX1ReuDYEVJ9pK0gkmKii1C2kp7M5c+xAdDuZk76wr2z26Tm7mQEipoo60PaWxQbNJiIE2LJtlNkxcp6UsqVhH60EqaUhXErszunCZn0vzZ7M7MJR/4kePIMTNf5jczv/neHgArrKAMG5qHH0tY7omE5U5WWoNezd7T3jvZwx4izIOE/okI/QVi9g3CtL6usWm17P4qJ55hudcStutNjSpr0NuRbfNFnBqQ0KsIUyS738rgzzzb9eDRQa9r7IwfyaMDgZCW29nQ0LIqlWaPpzJsGyL0uylifmGa5l1gucPTlovFhev9qc+Prov9voCG5V4v/v8koZsRYRPBbGRHwHLntgLazsRMn4E4/wLE9IY/EzHbApYzhuV+xcXiacuF45H8XKSw7Ryf7XMpkt8pZuGlZZ3Khj38VMJ2fyveRAzbuVpmOY/O9jnTNO9EhI75szBDa4BkakmPJfsY08nXPB585t1OvAIQs6w/CzE7BCRTm+nxpIq4GFA6/7IQ8LwSAuomIkpb9yNCbyFMb/KUVkJA3USEmP3MZ+FOnFsrsx8F8TZlg781pOdDoAMI01NcwGQ697oKAqaPXfpXRC1mIsLMDs6DdI8KAjadntBLRIjpVnGgnvXMGLeAWomYzLB1QW1Mx1QSUBsRGxpaVkHM/uLBX6skoDYiIswu8lmYSueeW9BxI4IoFlALERGhnUEa5+tUFFB5ESFhH4jL1jk7NtdAowxlRUSEvSF24m6VBVRWxNT7+SfFTnxZfQHH/xMw023OZ3xlZv+9hu3aFQeGykEUmPxqC9ObvC7ebrIH1E3hhYvHMSx3s7gf7QJRgQgd8dfBbMtLam4iixOPY9juJ+KOdDeICoRpu7ihTql3jFm8eBzDdi5zAcsOuutAVCCSaxTrYCtQ6iAdTrxKa+iZYPa5V4Dn3RFlSbdR7MRngTKlXDjxOOWW+65I32MgSnbsbl0jBLwGlLhMCC8ex7Cck76AB5xtIGog/9ZCYDI9AiQKuFTivWVeuCdhuzcSlnPrlb0j0Y8JEnpO3A1uAJIEXCrxOPzcJ9a/H0AcQMwOiTR+D5TAlb5hufuCb2g4zSAOEKb1sr7yMf04E27mFUhYznkuYLnlbgSlbnPWLrF4Ffvdhwzb+Tthu39UmyP3gVK3OWuXUDxOhT28Rax/vWA52Jw1S2xjxlK+qWxzhiWW8k1lmzMMsZVvKtucYYitfJuJ+nTz8yrYnGGItXxT1ebUpnwLa3OqRuzl20xAzL6cr82pGrGXbzOBMDXna3OqRuzlW1ibUyWklG9hbU6VkFa+hbE5VUJa+RbG5lQJaeVbGJtTFRIHh56VVr6paHMuhLL9g2sTtjMg0jcHVGB7pu1NLuDWPZ9OewJK6bCc8aqmgYeBCrxtnnjav9bKtMoXZo4wLPdXvoFU2t+vASoBJdqcJQEUNmeK5Ktk90VLoESbsyRAEm3OkgAJmxMROiy7L1qCFHqaU1ugIk9zagsqEZtTGqgEbE6pwILNSWin7L5oSapwuYrpFQAUuOXQEYTpj4GIuVdl90VLUOFqC7NRhD6+W3Z/tKOusWk1wnRcpPLhlVReBMlM7kVI2O/C7uzQyStRBohpJSJssvA4BMRsH8Js/S7c9qDsvmnDLkyfQIT1Ff+woyoBdAFhth4K506lALqQStNNvMP1mRaPftbtdXw76gdt7/bf88s/nK/WpZ3YQZid5Z3nA/n63IVpkWs/GcwIzM7o0k7sQPELmMd7R/83MP6eSKlJXdqJHSgGxtOpeGAdYmAQ0+u6tBM7kNB+3nmeRsUDaz4iUouwPl3aiR2UoTWFxZ0Pzl/ce0f9QRUWd5Shr+nSjhQgP0jPcpyAmH6kWztSSOJ8Nd8F+Vol1qu+KGZEXO2ssAKIhX8ANbaLYrJ8jsEAAAAASUVORK5CYII="
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("figure", {
-    className: "animate-fade-up animate-once animate-duration-[2800ms]"
+    className: "animate__animated animate__fadeIn animate__delay-1s"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     style: {
       borderRadius: "55rem"
@@ -3124,16 +3124,15 @@ const Content = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("figure", {
-    className: "animate-fade-up animate-once animate-duration-[2800ms]"
+    className: "animate__animated animate__fadeIn animate__delay-1s"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    style: {},
     className: "img-fluid rounded img-hero",
     src: _img_team2_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
     alt: "Time de vendas"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: "text-uppercase animate-fade-up animate-once animate-duration-[2800ms]",
+    className: "text-uppercase animate__animated animate__fadeIn animate__delay-1s",
     style: {
       fontSize: "1.8em",
       fontWeight: "bolder",
@@ -3146,8 +3145,8 @@ const Content = () => {
       color: "#1D3D91"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "empoderada"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "mt-2 animate-fade-up animate-once animate-duration-[2800ms]"
-  }, "Imagina cada vendedor acompanhando em tempo real as pr\u1E55prias vendas e agindo instantaneamente nos abonos, vendas n\xE3o aprovadas ou at\xE9 orientando os clientes nas vendas iniciadas.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Aqui a sua equipe comercial tem um acesso exclusivo, com rankings, metas, divis\xE3o por times, insights em tempo real. Tudo para otimizar e impulsionar seu processo de vendas.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "mt-2 animate__animated animate__fadeIn animate__delay-1.5s"
+  }, "Imagina cada vendedor acompanhando em tempo real as pr\xF3prias vendas e agindo instantaneamente nos abonos, vendas n\xE3o aprovadas ou at\xE9 orientando os clientes nas vendas iniciadas.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Aqui a sua equipe comercial tem um acesso exclusivo, com rankings, metas, divis\xE3o por times, insights em tempo real. Tudo para otimizar e impulsionar seu processo de vendas.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     id: "content3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container-fluid"
@@ -3158,7 +3157,7 @@ const Content = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: "text-uppercase animate-fade-up animate-once animate-duration-[2800ms]",
+    className: "text-uppercase animate__animated animate__fadeIn animate__delay-1.5s",
     style: {
       fontSize: "1.8em",
       fontWeight: "bolder",
@@ -3171,11 +3170,11 @@ const Content = () => {
       color: "#1D3D91"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "nativos"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "mt-2 animate-fade-up animate-once animate-duration-[2800ms]"
-  }, "Pode esquecer as gambiarras para implementar implementar o", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, " Upsell"), " e ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Downsell"), ", com nossos funis voc\xEA aumenta seu ticket m\xE9dio em 23%, em m\xE9dia, configurando em poucos minutos todo seu funil de convers\xE3o.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Se voc\xEA ainda n\xE3o usa upsell, est\xE1 deixando muito dinheiro na mesa, mas n\xE3o se preocupe, nossa equipe ajuda voc\xEA.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mt-2 animate__animated animate__fadeIn animate__delay-1.5s"
+  }, "Pode esquecer as gambiarras para implementar o", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, " Upsell"), " e ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Downsell"), ", com nossos funis voc\xEA aumenta seu ticket m\xE9dio em 23%, em m\xE9dia, configurando em poucos minutos todo seu funil de convers\xE3o.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Se voc\xEA ainda n\xE3o usa upsell, est\xE1 deixando muito dinheiro na mesa, mas n\xE3o se preocupe, nossa equipe ajuda voc\xEA.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("figure", {
-    className: "animate-fade-up animate-once animate-duration-[2800ms]"
+    className: "aanimate__animated animate__fadeIn animate__delay-1.5s"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "img-fluid rounded img-hero",
     src: _img_upsell_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
@@ -3197,7 +3196,7 @@ const Content = () => {
       flexDirection: "column"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: "text-uppercase text-center animate-fade-up animate-once animate-duration-[2800ms]",
+    className: "heartBeat-effect",
     style: {
       fontSize: "1.8em",
       fontWeight: "bolder",
@@ -3209,7 +3208,7 @@ const Content = () => {
       cursor: "pointer",
       background: "#1D3D91"
     }
-  }, "One-Click-Buy", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "One-Click-Buy"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mt-2 animate-fade-up animate-once animate-duration-[2800ms]"
   }, "Assim que o cliente realiza uma compra, os dados de compra s\xE3o salvos para as pr\xF3ximas transa\xE7\xF5es. Assim, ele consegue realizar uma nova compra com apenas um clique, aumentando incrivelmente sua convers\xE3o.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     id: "content5"
@@ -3236,9 +3235,24 @@ const Content = () => {
       lineHeight: "38px",
       marginTop: "1rem"
     }
-  }, "Conecte a Firepay a uma ou v\xE1rias adquirentes"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "Conecte a Firepay a uma ou v\xE1rias", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    style: {
+      color: "#1D3D91"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "adquirentes"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "mt-2 animate-fade-up animate-once animate-duration-[2800ms]"
-  }, "Com poucos cliques voc\xEA integra a Firepay com v\xE1rias plataformas. Com a nossa multi adquir\xEAncia, baseada em arquitetura de software moderna e arrojada, nossos clientes aumentaram a taxa de aprova\xE7\xE3o em 4%, em m\xE9dia.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Com poucos cliques voc\xEA integra a Firepay com v\xE1rias plataformas. Com a nossa multi adquir\xEAncia, baseada em arquitetura de software moderna e arrojada, nossos clientes aumentaram a taxa de aprova\xE7\xE3o em 4%, em m\xE9dia."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mbr-section-btn mt-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    style: {
+      marginRight: "10px"
+    },
+    className: "btn-call-action",
+    href: "#"
+  }, "Comece agora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "btn-call-action",
+    href: "#"
+  }, "Agende com um consultor"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("figure", {
     className: "animate-fade-up animate-once animate-duration-[2800ms]"
@@ -3252,14 +3266,15 @@ const Content = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "text-center text-uppercase",
     style: {
-      fontSize: "1.4em",
+      fontSize: "1.2em",
       fontWeight: "bolder",
       color: "#273240",
       lineHeight: "38px",
       marginTop: "1rem"
     }
   }, "Plataformas de Integra\xE7\xE3o"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "grid grid-cols-5 grid-rows-5 gap-4"
+    id: "companys",
+    className: "grid grid-cols-5 gap-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "box-company"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
@@ -3311,7 +3326,30 @@ const Content = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _img_nfservice_png__WEBPACK_IMPORTED_MODULE_13__["default"],
     alt: ""
-  }))))))));
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container flex justify-center mt-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex flex-col max-w-4xl md:h-56 bg-white rounded-lg shadow-lg overflow-hidden md:flex-row my-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "md:flex items-center justify-center md:w-1/2 md:bg-blue-700"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "py-6 px-8 md:py-0"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "text-gray-700 text-3xl font-bold md:text-gray-100"
+  }, "Inscreva-se para atualiza\xE7\xF5es do projeto"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "mt-2 text-gray-600 md:text-gray-400"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex items-center justify-center pb-6 md:py-0 md:w-1/2 md:border-b-8 border-blue-700"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex flex-col rounded-lg overflow-hidden sm:flex-row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    className: "py-3 px-4 pr-4 bg-gray-200 text-gray-800 border-gray-300 border-2 outline-none placeholder-gray-500 focus:bg-gray-100",
+    type: "text",
+    name: "email",
+    placeholder: "Digite seu email"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "py-3 px-4 bg-blue-700 text-gray-100 font-semibold uppercase hover:bg-gray-600"
+  }, "enviar"))))))))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Content);
 
@@ -3330,17 +3368,44 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ScrollToTopButton_ScrollToTopButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../ScrollToTopButton/ScrollToTopButton */ "./src/Components/ScrollToTopButton/ScrollToTopButton.jsx");
+/* harmony import */ var _img_logo_escuro_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/logo_escuro.png */ "./src/Components/Footer/img/logo_escuro.png");
+
+
 
 const Footer = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", {
     style: {
       padding: "2rem",
-      backgroundColor: "#333",
+      backgroundColor: "#1D3D91",
       color: "#FAFAFA"
     }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-xs-4 col-sm-4 col-md-4 col-lg-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _img_logo_escuro_png__WEBPACK_IMPORTED_MODULE_2__["default"],
+    width: "180",
+    alt: "Logo Firepay"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-xs-4 col-sm-4 col-md-4 col-lg-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "text-center"
-  }, " Template desenvolvido por Carlos Abreu")));
+    className: "text-center",
+    style: {
+      marginTop: "15px"
+    }
+  }, "Copyright \xA9 2023 - Desenvolvido por Carlos Abreu")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-xs-4 col-sm-4 col-md-4 col-lg-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "",
+    style: {
+      display: "flex",
+      justifyContent: "end"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ScrollToTopButton_ScrollToTopButton__WEBPACK_IMPORTED_MODULE_1__["default"], null)))))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
 
@@ -3392,24 +3457,25 @@ function Header() {
     style: {},
     id: "navbarScroll"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    id: "menu",
     className: "me-auto my-2 my-lg-0 text-uppercase ",
     style: {
       maxHeight: "100px",
       fontSize: "14px",
-      marginLeft: "10rem",
+      marginLeft: "25rem",
       fontWeight: "700"
     },
     navbarScroll: true
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
-    href: "#action1"
+    href: "firepay"
   }, "Firepay"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
-    href: "#action2"
+    href: "sobre"
   }, "Sobre n\xF3s"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
-    href: "#action2"
+    href: "solucoes"
   }, "Solu\xE7\xF5es"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
-    href: "#action2"
+    href: "recursos"
   }, "Recursos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__["default"].Link, {
-    href: "#action2"
+    href: "desenvolvedores"
   }, "Desenvolvedores")))));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
@@ -3447,7 +3513,7 @@ const HeroContent = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-wrapper align-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-    className: "mbr-section-title mb-4 mt-4 display-2 text-uppercase animate-fade-up animate-once animate-duration-[2800ms]",
+    className: "mbr-section-title mb-4 mt-4 display-2 text-uppercase animate__animated animate__fadeIn",
     style: {
       fontSize: "1.8rem",
       fontWeight: "700",
@@ -3455,7 +3521,7 @@ const HeroContent = () => {
       lineHeight: "38px"
     }
   }, "Criamos um checkout", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " para colocar mais dinheiro no seu bolso - 16% a mais, em m\xE9dia."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: "mbr-text mbr-fonts-style mb-4 display-7 animate-fade-down animate-once animate-duration-[2000ms]",
+    className: "mbr-text mbr-fonts-style mb-4 display-7 animate__animated animate__fadeIn animate__delay-1s",
     style: {
       fontSize: "1em",
       fontWeight: "700",
@@ -3476,7 +3542,7 @@ const HeroContent = () => {
   }, "Agende com um consultor")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: " image-wrapper animate-fade-up animate-once animate-duration-[2800ms]"
+    className: " image-wrapper animate__animated animate__fadeIn animate__delay-0.5s"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     width: "",
     className: "img-fluid",
@@ -3485,6 +3551,62 @@ const HeroContent = () => {
   }))))))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HeroContent);
+
+/***/ }),
+
+/***/ "./src/Components/ScrollToTopButton/ScrollToTopButton.jsx":
+/*!****************************************************************!*\
+  !*** ./src/Components/ScrollToTopButton/ScrollToTopButton.jsx ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function ScrollToTopButton() {
+  const {
+    0: isVisible,
+    1: setIsVisible
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    const handleScroll = () => {
+      if (window.pageYOffset > 100) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: `scroll-to-top-button ${isVisible ? "visible" : ""}`,
+    onClick: scrollToTop
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "32",
+    height: "32",
+    fill: "currentColor",
+    class: "bi bi-arrow-up-square-fill",
+    viewBox: "0 0 16 16"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"
+  })));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ScrollToTopButton);
 
 /***/ }),
 
@@ -3508,10 +3630,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_tailwind_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_tailwind_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _Components_Header_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Components/Header/Header */ "./src/Components/Header/Header.jsx");
-/* harmony import */ var _Components_HeroContent_HeroContent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Components/HeroContent/HeroContent */ "./src/Components/HeroContent/HeroContent.jsx");
-/* harmony import */ var _Components_Content_Content__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Components/Content/Content */ "./src/Components/Content/Content.jsx");
-/* harmony import */ var _Components_Footer_Footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Components/Footer/Footer */ "./src/Components/Footer/Footer.jsx");
+/* harmony import */ var animate_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! animate.css */ "./node_modules/animate.css/animate.css");
+/* harmony import */ var animate_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(animate_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Components_Header_Header__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Components/Header/Header */ "./src/Components/Header/Header.jsx");
+/* harmony import */ var _Components_HeroContent_HeroContent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Components/HeroContent/HeroContent */ "./src/Components/HeroContent/HeroContent.jsx");
+/* harmony import */ var _Components_Content_Content__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Components/Content/Content */ "./src/Components/Content/Content.jsx");
+/* harmony import */ var _Components_Footer_Footer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../Components/Footer/Footer */ "./src/Components/Footer/Footer.jsx");
+
 
 
 
@@ -3521,10 +3646,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const IndexPage = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Header_Header__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_HeroContent_HeroContent__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Content_Content__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Footer_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Header_Header__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_HeroContent_HeroContent__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Content_Content__WEBPACK_IMPORTED_MODULE_7__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Footer_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], null));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
 const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Firepay");
+
+/***/ }),
+
+/***/ "./node_modules/animate.css/animate.css":
+/*!**********************************************!*\
+  !*** ./node_modules/animate.css/animate.css ***!
+  \**********************************************/
+/***/ (() => {
+
+
 
 /***/ }),
 
@@ -38526,6 +38661,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAAAWCAYAAAAhKqlXAAAIVUlEQVR42u2ZC2zWVxnGy002L6hBMCKEhMRFY1Tmmiwat1RlLJtbYpZVExVdFFALtOXSctdaLKUI5V5KgW6AQGmKkYa2QMNFC3TVDUHEmkIDA1pboLa0pS29fK/Pe/Kc5s1JV5tlm1nyPckv3/e9////lO88533fcz5i4uPjRyxYsCBx/vz5V0AvkPeb5OTkCKjH+2y8fiImqv8tTFYS6HgnE75kyRLl3TYyTxdTTFSDC9lWnZKSIps3b5atW7cKPg9pgleuXCnV1dWKvn/XjMPf/zdevxQT1eDS8rhz507p7OyU5uZmyczMHMrkysmTJ0UViURkw4YNLp6amirp6emyY8cO2bRpkyxfvtzFQ1asWCHZ2dmifzcrK0uwcOz1DjA9hjIaBsaCieQR4DUSfBpM4mtYbj8ExhhGMT56oDg1ysQ/xph9Jow/ws8hI3kvQYx/JxTj4/k9JvLeD7vnQnSy9u3bJ319fdLd3e0mXWOWjIwM2bt3r9hsq6urE9WdO3dk4cKFsmjRIjl+/Lg8ePBAvBobGyUnJ8eO5RZGTU2N9Pb2CuReKysrXcnlouhMSkp6NvhCk8EG8C/QDtrARjOROeAt0AmawZ/Ad4HX4+A8eIPMYvzbPkZ+Dijcwzif/TwXT4KJV4DHgOpXvC8kFpwxz1SCP4IfOFMpLrh94CpoJalgDZ+zVDnjtmzZIq2traI6fPiw2IlevXq1NDQ0iIomaDY5k1Xl5eUuVlxc7EwI1dTUJKtWrdJ7NAOd0QPp9OnTav5Axk0Bl4BY+CU/Akr4OaSHxgwDLwTX/sDV/esg/ioYzmdeC67N4GovNbEIeA6o9jIW8k3QHMZJIbPqCVALJCCD90hAjxrnyps3p6qqSmxJPHPmjHidOHFCY85cr23btsmaNWuko6OjPwN3797tjOjp6RHV0aNH3XinTp0SyGX32bNn3UK4deuWQFqmtWyGxo0yExUBNeCn4HvgRRAPhFwBz4D1NE2YEWOZJWK4DMZZ00kZ+Dh4FBwLrmWzhDUF8eTAuE6QAuLJ0zTOG/UUqObnXjCDFUJIFfgFn40zxrWB+Yy/rMa5HnPt2jWB3ETasnbv3j2h3EZk2bJlcu7cOd/f9LMrkZDrk3v27OnPrrt37/rnXDltaWkR1fXr1yUtLc3dt3//fj+W9rzQuKksjQLqwFeA1QEgZDZjE8EbjHWDL4JMIByrk2XoSfB30Af+w+tvgsk072+MtXCcE2A6iPD+Ll7PDYxrZ3n0+oYxLp+xHH6OMMsfmsU3iRlP0Tj9m/b70yRvhiuBixcv1gnUrHET6tXe3u6y6+rVqwKpMe7Z+vp6gTTuNigc0xmkunHjhqxbt068CgsL/T1uY0O5XmuNY2ZFzGq1GsmMEvIk448G5eVZY/A/wJ/5fhlo4oTsMYtjKrOxgbEi0Aj+CXYwdpjZL8wWa1wvF85pkBYYV8nMbeTnWpop5LcgVKEp/X/luEv6jSsqKhLK7fjWr1/f3/fshuPIkSP95e3SpUvOYN/vzp8/7w1xGeY3MJcvX3amUK4k+vtyc3N9xmmJDY37oTFuV7hTZPMXMtXEC0z8JXCK70tBFt9fBL3MstlmcuLAFJMFv+SmqA28xViqGbMWjDbGRUAPKQiMu2++Tx3LXjoQkjKIcXbcfG+c9irXe1SHDh1yvU718OFDKSkp8eY5M+7fvy+QHgmcccxK17f8eGvXrnUZ6ntjQUGBN8hlrTe3rKzMZ7MultC450CXWdnD7fEg6ENxjI8BR0083pS9PO42xZALvhNsQp4yn5/xmWaIM1ncACZ442j4OpAIng+MKwc3gHARfIb9TMziHP02xnVw0SW6f5Pd8usGwZvjxKxaunSp27Jb0WD3rN8p3r59W3uX7g61r6lJ2vc0g/VwH25y3G7Wm3vx4kU9EoTGfQpcB0IDM80ZaARXvpBMGhsLbjFWT1P8ZC0FnwS9pgfOYLYKSQOzzOfHOIZ/povl+HemB8YOscf9nhsMIVnsW7fN2LPNGXXE4D2OGxTtRSqfQV1dXbJr1y7xRwYr3THm5+frNXck8M/U1ta6c5r/fOHCBTXE9T6WXjXTLQi38WFfzcvLU9NC44aBBaZsdXFH+Dr7wWTQaL5YMbMr4ieGWXuPm5BXOObrpszFcuULyTemRHgAnuL/DvuMaqHJsOeNcX3gL6CEfMsZZ48wXFh8ncQzYMSU0yvcXSYb4/r43U46aJzdrnvpTlOzTa+5LLp586YzhJPtz3Xas7hBMeLmZePGjX587Y/hWU/H05KrZXPAAzgnLoOrMjzHjeah+S6QgEoa8iPQQ14Aqt9woio4/ihe9+XsCBBOeAwnu5KxrYz9GPRyQmcZ40KmBcap0o0ZSeCzLK+tQzzHiRoXAQLcJLs+x962fft2F7cbiba2Nn9djbM9TbNLy632QH2vvcz+9unMP3jwoJZUzT4tsXpwtz95OePCn7w4sV9laTwECrhx8ZqqZjD+GsvfOF6LBQlgJhjP2Be46bALZCbv+z54Wd9zHK9p7Edf5ufP0bAElrBpfB8ykeUvwfTh8eb6i2A4y+LXuNvdT54G0wcaV41rsb8h+sypqKjwE2rRzYRmjRqn5TP8DVPPbwpjAcZA/Gxmx7e0YZyvx0Q1uPD/X68Cn3Uuy0pLS3Vy33bSDxw4IMeOHdO+9V7839ybCQkJH42JanDNmTNnLCasCHQD+T8SAZXItsdjohqa5s2bNwabgycSExNnYMW/8g6YjUkvB51ASDviy4fyPO79CV7jkMETRGRYTFTvn7S8YfJfggnF3GAI+BkuRY34IAjHh3EwcCZMqwFl0X71AdPcuXMnIPPSoj3rvdF/AV9f1gBABArxAAAAAElFTkSuQmCC");
+
+/***/ }),
+
+/***/ "./src/Components/Footer/img/logo_escuro.png":
+/*!***************************************************!*\
+  !*** ./src/Components/Footer/img/logo_escuro.png ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,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");
 
 /***/ }),
 

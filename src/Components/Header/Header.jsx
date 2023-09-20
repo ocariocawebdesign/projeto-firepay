@@ -17,20 +17,21 @@ function Header() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse style={{}} id="navbarScroll">
           <Nav
+            id="menu"
             className="me-auto my-2 my-lg-0 text-uppercase "
             style={{
               maxHeight: "100px",
               fontSize: "14px",
-              marginLeft: "12rem",
+              marginLeft: "25rem",
               fontWeight: "700",
             }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Firepay</Nav.Link>
-            <Nav.Link href="#action2">Sobre nós</Nav.Link>
-            <Nav.Link href="#action2">Soluções</Nav.Link>
-            <Nav.Link href="#action2">Recursos</Nav.Link>
-            <Nav.Link href="#action2">Desenvolvedores</Nav.Link>
+            <Nav.Link href="firepay">Firepay</Nav.Link>
+            <Nav.Link href="sobre">Sobre nós</Nav.Link>
+            <Nav.Link href="solucoes">Soluções</Nav.Link>
+            <Nav.Link href="recursos">Recursos</Nav.Link>
+            <Nav.Link href="desenvolvedores">Desenvolvedores</Nav.Link>
 
             {/*<NavDropdown title="Link" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
