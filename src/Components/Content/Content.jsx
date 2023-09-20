@@ -288,7 +288,7 @@ const Content = () => {
                 </div>*/}
             </div>
             <div className="mt-4">
-              <h3
+              <h3 id="title-plataformas"
                 className="text-center text-uppercase"
                 style={{
                   fontSize: "1.2em",

@@ -111,6 +111,9 @@
   #companys {
     display: none;
   }
+  #title-plataformas {
+    display: none;
+  }
 
   nav #menu {
     margin-left: 0 !important;
@@ -128,6 +131,10 @@
 @media only screen and (device-width: 740px) {
   /* default iPad screens */
   #companys {
+    display: none;
+  }
+
+  #title-plataformas {
     display: none;
   }
 
